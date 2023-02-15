@@ -11,7 +11,7 @@
 		2C480F292993F98000CFAB77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C480F282993F98000CFAB77 /* ContentView.swift */; };
 		2C480F2B2993F98200CFAB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C480F2A2993F98200CFAB77 /* Assets.xcassets */; };
 		2C480F2E2993F98200CFAB77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C480F2D2993F98200CFAB77 /* Preview Assets.xcassets */; };
-		2C480F372993FD7C00CFAB77 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C480F362993FD7C00CFAB77 /* LocationManager.swift */; };
+		2C480F39299BE69200CFAB77 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C480F38299BE69200CFAB77 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		2C480F282993F98000CFAB77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C480F2A2993F98200CFAB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C480F2D2993F98200CFAB77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2C480F362993FD7C00CFAB77 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2C480F38299BE69200CFAB77 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				2C480F262993F98000CFAB77 /* Map_HackwichApp.swift */,
 				2C480F282993F98000CFAB77 /* ContentView.swift */,
-				2C480F362993FD7C00CFAB77 /* LocationManager.swift */,
+				2C480F38299BE69200CFAB77 /* LocationManager.swift */,
 				2C480F2A2993F98200CFAB77 /* Assets.xcassets */,
 				2C480F2C2993F98200CFAB77 /* Preview Content */,
 			);
@@ -142,7 +142,7 @@
 			files = (
 				2C480F292993F98000CFAB77 /* ContentView.swift in Sources */,
 				2C480F272993F98000CFAB77 /* Map_HackwichApp.swift in Sources */,
-				2C480F372993FD7C00CFAB77 /* LocationManager.swift in Sources */,
+				2C480F39299BE69200CFAB77 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 				DEVELOPMENT_TEAM = D846B7QS5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This App Requires The Use Of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,7 +304,7 @@
 				DEVELOPMENT_TEAM = D846B7QS5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This App Requires The Use Of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,7 +333,7 @@
 				2C480F302993F98200CFAB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2C480F312993F98200CFAB77 /* Build configuration list for PBXNativeTarget "Map Hackwich" */ = {
 			isa = XCConfigurationList;
@@ -342,7 +342,7 @@
 				2C480F332993F98200CFAB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

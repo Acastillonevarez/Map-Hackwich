@@ -21,7 +21,8 @@ struct ContentView: View {
     @State private var userTrackingMode: MapUserTrackingMode = .follow
     @State private var places = [Place(name: "Barrington High School", coordinate: CLLocationCoordinate2D(latitude: 42.15704, longitude: -88.14812))]
     var body: some View {
-        Map(coordinateRegion: $region,
+        Map(
+            coordinateRegion: $region,
             interactionModes: .all,
             showsUserLocation: true,
             userTrackingMode: $userTrackingMode,
